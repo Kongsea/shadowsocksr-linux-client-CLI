@@ -314,7 +314,7 @@ pre_install(){
 # Download files
 download_files(){
     # Download libsodium file
-    if [ ! -f ibsodium-1.0.13.tar.gz ]; then
+    if [ ! -f libsodium-1.0.13.tar.gz ]; then
         echo -e "[${red}Error${plain}] libsodium-1.0.13.tar.gz not exists!"
         exit 1
     fi
